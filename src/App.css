@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.panel{
+  background: mediumseagreen;
+}
+
+.customMenu{
+  
+   background: white;
+   margin-left: 750px;
+}
+
+.customInput{
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 20px;
+  padding:10px;
+  border-radius: 5px;
+  border:none;
+  background-color:gainsboro;
+
+}
+
+.customMenu p{
+  font-size: 10pt;
+}
+
+.customBotones{
+  margin-left: 200px;
+}
+.customSimpleMenu{
+  margin-left:200px;
+}
+.inputNombre{
+  padding: 5px;
+  margin-top:10px;
+  border:none;
+  border-radius: 10px;
+  background-color:gainsboro;
+}
+.selectPrivacidad{
+  padding: 10px;
+  margin-top:10px;
+  border:none;
+  border-radius: 10px;
+  background-color:gainsboro;
+}
+
+.botonCancelar{
+  position: absolute;
+  margin-left:300px;
+}
+
+.customDivRelacionados{
+  position: relative;
+  margin-top: -160px;
+  margin-left:640px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
